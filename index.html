@@ -1,370 +1,629 @@
 <!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="img/logo.png" type="image/png" />
+    <title>Satner Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="vendors/linericon/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="webidhark,Egwu daniel,web development,web designer,database,programmer,ui/ux design">
-    <meta name="author" content="Egwu Daniel">
-    <title>Webidhark</title>
+  <body>
+    <style>
+      .footer_social {
+        padding-top: 23px;
+      }
+      .footer_social a i {
+        color: white;
+        font-size: 22px;
+      }
+      .footer_social a {
+        padding: 0 20px;
+      }
+    </style>
+    <!--================ Start Header Area =================-->
+    <header class="header_area">
+      <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="index.html"
+              ><img src="img/logo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul class="nav navbar-nav menu_nav justify-content-end">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/#portfolio">Portfolio</a>
+                </li>
 
-    <!--favicon icon-->
-    <link rel="icon" href="images/favicon.png">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;display=swap" rel="stylesheet">
-
-    <!-- slick css -->
-    <link rel="stylesheet" href="css/slick.css">
-
-    <!-- global style css -->
-    <link rel="stylesheet" href="css/global-style.css">
-
-    <!-- style css -->
-    <link rel="stylesheet" href="style.css">
-
-    <!--responsive css-->
-    <link rel="stylesheet" href="css/responsive.css">
-
-</head>
-
-<body>
-    <!-- ======================================= 
-        ==Start Header section==  
-    =======================================-->
-    <header class="header">
-        <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
-        <div class="humbarger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="/#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
     </header>
+    <!--================ End Header Area =================-->
 
-    <div class="menu-wrapper">
-        <ul class="main-menu">
-            <li><a href="#about-me" data-text="about">about</a></li>
-            <li><a href="#portfolio" data-text="portfolio">portfolio</a></li>
-            <li><a href="#skill" data-text="skill">skill</a></li>
-        </ul>
-
-        <div class="quick-link">
-         
-            <div class="follow-me">
-                <span>Follow me :</span>
-                <ul class="social-icon">
-                    <li class="facebook">
-                        <a href="https://www.facebook.com/profile.php?id=100081284894011" title="Facebook" target="_blank">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="twitter">
-                        <a href="https://twitter.com/DanielEgwu17?t=bOrNSSvA0hlo4VlRzJqIoQ&s=09" title="Twitter" target="_blank">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="linkedin">
-                        <a href="https://www.linkedin.com/in/egwu-daniel-09aa65240" title="Linkedin" target="_blank">
-                            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
-                            </svg>
-                        </a>
-                    </li>
-                 
-                </ul>
-            </div>
-        </div>
-        <img src="images/horizontal-logo.png" alt="image" class="horizontal-img">
-    </div>
-    <!-- ======================================= 
-        ==End Header section==  
-    =======================================-->
-
-
-    <!-- ======================================= 
-        ==Start Hero section==  
-    =======================================-->
-    <span class="vertical-line line1"></span>
-    <span class="vertical-line line2"></span>
-    <span class="vertical-line line3"></span>
-    <span class="vertical-line line4"></span>
-    <span class="vertical-line line5"></span>
-
-    <section class="hero-section pos-relative">
-        <span class="vertical-logo"><img src="images/vertical-logo.png" alt="vertical-logo"></span>
-        <div class="hero-image-wrapper">
-            <span class="hero-image animate-me"></span>
-            <img src="images/dot-texture.png" alt="texture" class="dot-texture animate-me">
-        </div>
-        <span class="scroll-down animate-me" id="scroll-me">scroll down <img src="images/scroll-down-arrow.png" alt="arrow"></span>
-        <ul class="social-icon">
-            <li class="facebook">
-                <a href="https://www.facebook.com/profile.php?id=100081284894011" title="Facebook" target="_blank">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
-                    </svg>
-                </a>
-            </li>
-            <li class="twitter">
-                <a href="https://twitter.com/DanielEgwu17?t=bOrNSSvA0hlo4VlRzJqIoQ&s=09" title="Twitter" target="_blank">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
-                    </svg>
-                </a>
-            </li>
-            <li class="linkedin">
-                <a href="https://www.linkedin.com/in/egwu-daniel-09aa65240" title="Linkedin" target="_blank">
-                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                        <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
-                    </svg>
-                </a>
-            </li>
-          
-        </ul>
-
+    <!--================ Start Home Banner Area =================-->
+    <section class="home_banner_area">
+      <div class="banner_inner">
         <div class="container">
-            <div class="content-wrapper">
-                <div class="hero-content">
-                    <h1 class="animate-me">Hi! I’m Daniel</h1>
-                    <h2 class="animate-me">UI/UX designer||Full-stack Developer</h2>
-                    <a href="https://www.linkedin.com/in/egwu-daniel-09aa65240" target="_blank" class="hire-me link-default animate-me">Hire Me
-                        <span>
-                            <img src="images/arrow-right-white.png" alt="arrow">
-                        </span>
-                    </a>
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="banner_content">
+                <h3 class="text-uppercase">Hell0</h3>
+                <h1 class="text-uppercase">I am Daniel Egwu</h1>
+                <h5 class="text-uppercase">Full-Stack Web developer</h5>
+                <div class="d-flex align-items-center">
+                  <a class="primary_btn" href="https://api.whatsapp.com/send?phone=+2349070766265&text=Hello! I am interested in your services:"><span>Hire Me</span></a>
+                  <a class="primary_btn tr-bg" href="https://drive.google.com/file/d/1-4OXPQq5uhuKE4TOimQLoM9vKdELe9zS/view?usp=drive_link" download=""><span>Get CV</span></a>
                 </div>
+              </div>
             </div>
+            <div class="col-lg-5">
+              <div class="home_right_img">
+                <img class="" src="img/banner/home-right.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- ======================================= 
-        ==End Hero section==  
-    =======================================-->
+    <!--================ End Home Banner Area =================-->
 
-    <!-- ======================================= 
-        ==Start about section==  
-    =======================================-->
-    <section class="about-section pos-relative" id="about-me">
-        <div class="overlay"></div>
-        <div class="about-shape">
-            <img src="images/about-shape.png" alt="shape" class="shape">
-            <span class="circle1"></span>
-        </div>
-        <div class="container">
-            <img src="images/dot-texture.png" alt="pattern img" class="dot-pattern">
-            <span class="about-img1 animate-me"></span>
-            <div class="about-content">
-                <h2 class="animate-me"> I  work at Petrong Software Solution as  a Full-Stack
-                    Developer. </h2>
-                <h5 class="animate-me">I started working at petrong in 2022. I worked as an intern for three months. Presently, i work with the Dev team on various projects</h5>
+    <!--================ Start About Us Area =================-->
+    <section class="about_area section_gap" id="about">
+      <div class="container">
+        <div class="row justify-content-start align-items-center">
+          <div class="col-lg-5">
+            <div class="about_img">
+              <img class="" src="img/about-us.png" alt="" />
             </div>
-            <span class="about-img2 animate-me"></span>
+          </div>
+          <div class="offset-lg-1 col-lg-5">
+            <div class="main_title text-left">
+              <h2>About Me</h2>
+              <p>
+                I am a full-stack web developer with a strong foundation in
+                JavaScript, PHP, and modern web frameworks.
+              </p>
+              <p>
+                My journey in web development has equipped me with the skills to
+                tackle complex challenges and deliver high-quality, user-centric
+                solutions. Whether it's developing dynamic web applications,
+                optimizing performance, or implementing responsive designs, I
+                strive to create impactful digital experiences.
+              </p>
+              <a class="primary_btn" href="https://drive.google.com/file/d/1-4OXPQq5uhuKE4TOimQLoM9vKdELe9zS/view?usp=drive_link" download=""><span>Download CV</span></a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- ======================================= 
-        ==End about section==  
-    =======================================-->
-    
-    
-   
-    
-    
-    <!-- ======================================= 
-        ==Start Skill section==  
-    =======================================-->
-    <section class="skill-section" id="skill">
-        <div class="container">
-            <h2 class="section-title" data-enllax-ratio="-0.6" data-enllax-type="foreground" data-enllax-direction="horizontal">My Skills</h2>
-            
-            <div class="skill-wrapper" id="me-working-skill">
-                <span class="vertical-line"></span>
-                <div class="single-skill animate-me">
-                    <span class="circle"></span>
-                    <span class="rectengle"></span>
-                    <h3><span class="title">HTML5</span> <span class="line"></span></h3>
-                    <p>knowlegde and usage of Hyper Text Markup Language(HTML) to build webpages.</p>
-                </div>
-                <div class="single-skill animate-me">
-                    <span class="circle"></span>
-                    <span class="rectengle"></span>
-                    <h3><span class="title">CSS</span> <span class="line"></span></h3>
-                    <p>Usage of Cascading Style Sheets(CSS) to style webpages, usage of Bootstrap5(CSS framework) to build responsive webpages.</p>
-                </div>
-                <div class="single-skill animate-me">
-                   <span class="circle"></span>
-                   <span class="rectengle"></span>
-                    <h3><span class="title">javascript</span> <span class="line"></span></h3>
-                    <p> knowledge and usuage of javascript to add functionalty to webpages.</p>
-                </div>
-                <div class="single-skill animate-me">
-                   <span class="circle"></span>
-                   <span class="rectengle"></span>
-                    <h3><span class="title">JQUERY</span> <span class="line"></span></h3>
-                    <p>Usage of javascript library(JQUERY) for more user interaction with webpages </p>
-                </div>
-                <div class="single-skill animate-me">
-                   <span class="circle"></span>
-                   <span class="rectengle"></span>
-                    <h3><span class="title">PHP</span> <span class="line"></span></h3>
-                    <p> knowlege of PHP and usage of PHP Framework(Laravel) for database Management</p>
-                </div>
-                <div class="single-skill animate-me">
-                   <span class="circle"></span>
-                   <span class="rectengle"></span>
-                    <h3><span class="title">GIT</span> <span class="line"></span></h3>
-                    <p>usage of cloud-based source code management system(GITHUB) to colloborate with various developers on project</p>
-                </div>
+    <!--================ End About Us Area =================-->
 
+    <!--================ Srart Brand Area =================-->
+    <section class="brand_area section_gap_bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <img src="img/brands/petrong.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <img src="img/brands/sericon.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="single-brand-item d-table">
+                  <div class="d-table-cell text-center">
+                    <img src="img/brands/credit_capital.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo4.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-6">
+							<div class="single-brand-item d-table">
+								<div class="d-table-cell text-center">
+									<img src="img/brands/logo5.png" alt="">
+								</div>
+							</div>
+						</div> -->
             </div>
+          </div>
+          <div class="offset-lg-2 col-lg-4 col-md-6">
+            <div class="client-info">
+              <div class="d-flex mb-50">
+                <span class="lage">2</span>
+                <span class="smll">Years Experience Working</span>
+              </div>
+              <div class="call-now d-flex">
+                <div>
+                  <span class="fa fa-phone"></span>
+                </div>
+                <div class="contact-info ml-15">
+                  <p class="contact-label">Get in Touch</p>
+                  <h3 class="contact-number">
+                    <a href="tel:+2349070766265" style="color: unset"
+                      >+(234) 907 076 6265</a
+                    >
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <!-- ======================================= 
-        ==End Skill section==  
-    =======================================-->
-    
-    
-    <!-- ======================================= 
-        ==Start Service section==  
-    =======================================-->
-    <section class="service-section pos-relative">
-        <h2 class="section-title" data-enllax-ratio="-0.6" data-enllax-type="foreground">Services</h2>
-        <div class="container">
-            <div class="service-wrapper">
-                <div class="single-service">
-                    <img src="images/idea.png" alt="icon" class="service-icon">
-                    <h4>Web Development</h4>
-                    <p>We build standard and quality websites for clients. </p>
-                    <img src="images/service-box-logo.png" alt="watermark" class="watermark">
-                </div>
-                <div class="single-service">
-                    <img src="images/ui-ux.png" alt="icon" class="service-icon">
-                    <h4>UI/UX Design</h4>
-                    <p>We design and create high quality webpages that surpasses our client's standard.</p>
-                    <img src="images/service-box-logo.png" alt="watermark" class="watermark">
-                </div>
-                <div class="single-service">
-                    <img src="images/mobile-app.png" alt="icon" class="service-icon">
-                    <h4>Database management</h4>
-                    <p>We store,retrieve and query data for clients using Database Management Systems(DBMS).</p>
-                    <img src="images/service-box-logo.png" alt="watermark" class="watermark">
-                </div>
-           
-            </div>
-        </div>
-    </section>
-    <!-- ======================================= 
-        ==End Service section==  
-    =======================================-->
-    
-    
- 
-    
-    
-    <!-- ======================================= 
-        ==Start Instagram section==  
-    =======================================-->
-    <section class="instagram-section">
-      
-        <div class="container">
-            <div class="section-title">
-             
-                <h2 class="">Some of our projects</h2>
-            </div>
-            <div class="instagram-img-wrapper">
-                <div class="single-col lg">
-                    <a href="#"><img src="images/project1.png" alt="instagram img"></a>
-                    <a href="#"><img src="images/project2.png" alt="instagram img"></a>
-                </div>
-                <div class="single-col lg">
-                    <a href="#"><img src="images/project3.png" alt="instagram img"></a>
-                    <a href="#"><img src="images/project4.png" alt="instagram img"></a>
-                </div>
-                <!-- <div class="single-col lg">
-                    <a href="#"><img src="images/instagram-img5.jpg" alt="instagram img"></a>
-                </div> -->
-            </div>
-        </div>
-    </section>
-    <!-- ======================================= 
-        ==End Instagram section==  
-    =======================================-->
-    
-    <!-- ======================================= 
-        ==Start Contact section==  
-    =======================================-->
-    <section class="footer-area" id="contact">
+    <!--================ End Brand Area =================-->
 
-        
-        <footer class="footer-section">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="copyright-text">
-                        <p>&copy; <span class="update-year"></span> Developed By <a href="https://themeforest.net/user/theme_builder" target="_blank">Webidhark.</a> All Right Reserved </p>
+    <!--================ Start Features Area =================-->
+    <section class="features_area" id="services">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="main_title">
+              <h2>Services</h2>
+              <p>
+                Discover a Suite of Services Tailored to Elevate Your Web
+                Development and Optimization Needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row feature_inner">
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img src="img/services/s3.png" alt="Web Development" />
+              <h4>Web Development</h4>
+              <p>
+                Building robust and scalable web applications tailored to your
+                business needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img src="img/services/s4.png" alt="SEO Optimization" />
+              <h4>SEO Optimization</h4>
+              <p>
+                Enhancing your website's visibility and ranking to drive organic
+                traffic.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="feature_item">
+              <img src="img/services/s2.png" alt="UI/UX Design" />
+              <h4>Backend Development</h4>
+              <p>
+                Creating efficient server-side logic, databases, and APIs for
+                smooth operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--================ End Features Area =================-->
+
+    <!--================Start Portfolio Area =================-->
+    <section class="portfolio_area" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="main_title text-left">
+              <h2>
+                Portfolio <br />
+                Featured Projects
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="filters portfolio-filter">
+          <ul>
+            <li class="active" data-filter="*">all</li>
+            <li data-filter=".popular">popular</li>
+            <li data-filter=".latest">latest</li>
+            <!-- <li data-filter=".following">following</li>
+					<li data-filter=".upcoming">upcoming</li> -->
+          </ul>
+        </div>
+
+        <div class="filters-content">
+          <div class="row portfolio-grid justify-content-center">
+            <div class="col-lg-4 col-md-6 all popular">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/glukogest.png"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/glukogest.png" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
                     </div>
-                    
-                    <ul class="social-icon">
-                        <li class="facebook">
-                            <a href="https://www.facebook.com/profile.php?id=100081284894011" title="Facebook" target="_blank">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-                                    <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="twitter">
-                            <a href="https://twitter.com/DanielEgwu17?t=bOrNSSvA0hlo4VlRzJqIoQ&s=09" title="Twitter" target="_blank">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="linkedin">
-                            <a href="https://www.linkedin.com/in/egwu-daniel-09aa65240" title="Linkedin" target="_blank">
-                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                    <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                  </a>
                 </div>
+                <div class="short_info">
+                  <h4><a href="https://www.glukogest.com">Glukogest</a></h4>
+                  <p>Gestational Diabetes Testing</p>
+                </div>
+              </div>
             </div>
-        </footer>
+            <div class="col-lg-4 col-md-6 all latest">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/estateagent.png"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/estateagent.png" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4>
+                    <a href="https://www.estateagentlagos.ng/"
+                      >Estate Agent Lagos</a
+                    >
+                  </h4>
+                  <p>Real Estate</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all popular">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/hogwidows.png"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/hogwidows.png" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4><a href="https://www.hogwidows.org">Hog Widows</a></h4>
+                  <p>Suportive Initiative For Widows</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all latest">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/creditcapital.png"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/creditcapital.png" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4>
+                    <a href="https://creditcapital.lopsim.com/"
+                      >Credit Capital</a
+                    >
+                  </h4>
+                  <p>Loan Management</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 all popular">
+              <div class="portfolio_box">
+                <div class="single_portfolio">
+                  <img
+                    class="img-fluid w-100"
+                    src="img/portfolio/deftpress.png"
+                    alt=""
+                  />
+                  <div class="overlay"></div>
+                  <a href="img/portfolio/p5.jpg" class="img-gal">
+                    <div class="icon">
+                      <span class="lnr lnr-cross"></span>
+                    </div>
+                  </a>
+                </div>
+                <div class="short_info">
+                  <h4><a href="https://deftpress.com/">Deftpress</a></h4>
+                  <p>CMS Platform</p>
+                </div>
+              </div>
+            </div>
+			<div class="col-lg-4 col-md-6 all latest">
+				<div class="portfolio_box">
+				  <div class="single_portfolio">
+					<img
+					  class="img-fluid w-100"
+					  src="img/portfolio/atlantisauction.png"
+					  alt=""
+					/>
+					<div class="overlay"></div>
+					<a href="img/portfolio/atlantisauction.png" class="img-gal">
+					  <div class="icon">
+						<span class="lnr lnr-cross"></span>
+					  </div>
+					</a>
+				  </div>
+				  <div class="short_info">
+					<h4><a href="https://atlantisauction.africa/">Atlantis Auction</a></h4>
+					<p>Auction Platform</p>
+				  </div>
+				</div>
+			  </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- ======================================= 
-        ==End Contact section==  
-    =======================================-->
+    <!--================End Portfolio Area =================-->
 
+    <!--================ Start Testimonial Area =================-->
+    <!-- <div class="testimonial_area section_gap_bottom">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>client say about me</h2>
+						<p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
+							 beginning signs open god you're gathering ithe</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="testi_slider owl-carousel">
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t1.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Elite Martin</h4>
+									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t2.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Davil Saden</h4>
+									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t1.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Elite Martin</h4>
+									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t2.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Davil Saden</h4>
+									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t1.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Elite Martin</h4>
+									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="testi_item">
+        				<div class="row">
+        					<div class="col-lg-4">
+        						<img src="img/testimonials/t2.jpg" alt="">
+        					</div>
+        					<div class="col-lg-8">
+        						<div class="testi_text">
+        							<h4>Davil Saden</h4>
+									<p>Him, made can't called over won't there on divide there male fish beast own his day third seed sixth seas unto. Saw from </p>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+			</div>
+		</div>
+	</div> -->
+    <!--================ End Testimonial Area =================-->
 
+    <!--================ Start Newsletter Area =================-->
+    <section class="newsletter_area" id="contact">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-12">
+            <div class="subscription_box text-center">
+              <h2 class="text-uppercase text-white">Stay Connected</h2>
+              <p class="text-white">
+                Ready to start your next project? Let’s connect! Whether you
+                have a project in mind or just want to say hello, feel free to
+                reach out.
+              </p>
+              <div class="subcribe-form" id="mc_embed_signup">
+                <div class="footer_social">
+                  <a href="https://api.whatsapp.com/send?phone=+2349070766265&text=Hello! I am interested in your services:" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                  <a href="mailto:egwudarnell@gmail.com?subject=Follow-up&body=Hi%20there%20I%20am%20interested%20in%20your%20services,"  target="_blank"><i class="fa fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/egwu-daniel-09aa65240"  target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://github.com/DanielEgwu"  target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Newsletter Area =================-->
 
-    <!-- ======================================= 
-        ==Start scroll top==  
-    =======================================-->
-    <div class="scroll-top not-visible">
-        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" class="svg-inline--fa fa-angle-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"></path></svg>
-    </div>
-    <!-- =======================================
-        ==End scroll top==  
-    =======================================-->
+    <!--================Footer Area =================-->
+    <footer class="footer_area">
+      <div class="container">
+        <!-- <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="footer_top flex-column">
+              <div class="footer_logo">
+                <h4>Follow Me</h4>
+              </div>
+              <div class="footer_social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-behance"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="row footer_bottom justify-content-center">
+          <p class="col-lg-8 col-sm-12 footer-text">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--================End Footer Area =================-->
 
-    <!-- jQuary library -->
-    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-3.2.1.min.js"></script>
-    
-    <!-- enllax parallux -->
-    <script src="js/jquery.enllax.min.js"></script>
-    
-    <!-- waypoint js -->
-    <script src="js/waypoint.js"></script>
-    
-    <!-- slick js -->
-    <script src="js/slick.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
 
-    <!-- all jQuary activation code here and always it will be bottom of all script tag -->
-    <script src="js/main.js"></script>
-</body>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("nav a").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
 
+            var hash = this.hash;
 
-<!-- Mirrored from demo.themecon.net/onlyme/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Sep 2022 23:23:16 GMT -->
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
